@@ -100,11 +100,6 @@ class MovementModule extends Component {
     else e.cancelBubble = true;
   }
 
-  youtubeParser = (url) => {
-    let match = url.match(regExp);
-    return (match&&match[7].length==11)? match[7] : false;
-  }
-
   render() {
     const { title, titleColor, titleHeight } = this.props;
     const { url, width, height } = this.props;
