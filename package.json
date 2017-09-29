@@ -1,6 +1,6 @@
 {
   "name": "movement-embed-youtube",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Movement module for Youtube embed video",
   "main": "build/index.js",
   "scripts": {
