@@ -1,6 +1,6 @@
 {
   "name": "movement-embed-youtube",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Movement module for Youtube embed video",
   "main": "build/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "name": "JuneTien",
     "email": "chiachun.tien@gmail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
