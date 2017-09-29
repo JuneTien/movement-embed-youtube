@@ -1,6 +1,6 @@
 {
   "name": "movement-embed-youtube",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Movement module for Youtube embed video",
   "private": true,
   "main": "build/index.js",
@@ -28,7 +28,6 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "^1.0.14",
