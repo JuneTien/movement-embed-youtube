@@ -1,4 +1,4 @@
-# movement-embed-youtube
+# movement-embed-youtube [![Build Status](https://travis-ci.org/JuneTien/movement-embed-youtube.svg?branch=master)](https://travis-ci.org/JuneTien/movement-embed-youtube)
 ### This component is an embed with movement block for Youtube video.   
 ### This component is created by React.    
 ### Demo Site: https://junetien.github.io/Drag_Playground/    
