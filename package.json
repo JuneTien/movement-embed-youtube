@@ -2,7 +2,6 @@
   "name": "movement-embed-youtube",
   "version": "0.0.4",
   "description": "Movement module for Youtube embed video",
-  "private": true,
   "main": "build/index.js",
   "scripts": {
     "test": "react-scripts test --env=jsdom",
