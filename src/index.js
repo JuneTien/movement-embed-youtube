@@ -10,9 +10,6 @@ let deltaX = 0;
 let deltaY = 0;
 let thisMount = null;
 
-// let finalPosLeft = 0;
-// let finalPosTop = 0;
-
 class MovementModule extends Component {
   constructor(props) {
     super(props);
@@ -26,9 +23,7 @@ class MovementModule extends Component {
       touchmove: 'mousemove',
       touchend: 'mouseup',
     };
-    // for (const originalType in mouseEventTypes) { 
     for (let i = 0; i < mouseEventTypes.length; i++) {
-      // document.addEventListener(originalType, (originalEvent) => {
       document.addEventListener(mouseEventTypes[i], (originalEvent) => {
         const event = document.createEvent('MouseEvents');
         const touch = originalEvent.changedTouches[0];
@@ -76,7 +71,6 @@ class MovementModule extends Component {
 
   getScrollOffsets = () => {
     const w = window;
-    // w = w || window;
     if (w.pageXOffset != null) return { x: w.pageXOffset, y: w.pageYOffset };
     const d = w.document;
     if (document.compatMode === 'CSS1Compat') {
@@ -87,14 +81,12 @@ class MovementModule extends Component {
   }
 
   moveHandler = (e) => {
-    // if (!e) e = window.event;
     scroll = this.getScrollOffsets();
     thisMount.style.left = `${(e.clientX + scroll.x) - deltaX}px`;
     thisMount.style.top = `${(e.clientY + scroll.y) - deltaY}px`;
   }
 
   upHandler = (e) => {
-    // if (!e) e = window.event;
     if (document.removeEventListener) {
       document.removeEventListener('mouseup', this.upHandler, true);
       document.removeEventListener('mousemove', this.moveHandler, true);
