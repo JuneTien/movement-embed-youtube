@@ -22,5 +22,5 @@ The height of embed video.
 step 1:   
 <code>npm install movement-embed-youtube</code>    
 step 2:   
-<code>import MovementModule from 'movement-embed-youtube';</code>   
+<img width="459" alt="2017-09-29 1 58 45" src="https://user-images.githubusercontent.com/15939944/31044561-4b9ad0ec-a604-11e7-9ffd-be31e5943437.png">  
 <img width="447" alt="2017-09-29 1 57 24" src="https://user-images.githubusercontent.com/15939944/31002592-39a286dc-a51e-11e7-9504-ff73f8f1e564.png">
